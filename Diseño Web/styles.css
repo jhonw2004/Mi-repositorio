@@ -1,0 +1,108 @@
+body {
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Color de texto oscuro para buena legibilidad */
+    font-family: Arial, sans-serif; /* Fuente sans-serif */
+    margin: 0; /* Eliminar márgenes por defecto */
+    padding: 20px; /* Espaciado interno */
+    font-family: monospace;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para el título y párrafos en el header */
+header h1 {
+    font-size: 3em; /* Tamaño de fuente grande para el nombre */
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente para los subtítulos */
+    margin: 5px 0; /* Espaciado vertical entre párrafos */
+    font-style: italic;
+}
+
+/* Estilo para la sección de biografía */
+.bio {
+    display: flex; /* Usar flexbox para alinear la imagen y el texto */
+    align-items: center; /* Centrar verticalmente */
+    margin: 20px 0; /* Espaciado entre secciones */
+}
+
+/* Estilo para la imagen */
+.bio img {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Alto de la imagen para mantener proporciones */
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilo para el aside dentro de la sección de biografía */
+.bio aside {
+    max-width: 600px; /* Ancho máximo del texto */
+}
+
+/* Estilo para las secciones */
+section {
+    margin: 20px 0; /* Espaciado entre secciones */
+    padding: 15px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para los encabezados de secciones */
+section h2 {
+    color: #007BFF; /* Color azul para los títulos de sección */
+    margin-top: 0; /* Eliminar margen superior */
+}
+
+/* Estilo para listas */
+ul {
+    padding-left: 20px; /* Espaciado a la izquierda para listas */
+    list-style-type: none; /* Eliminar viñetas */
+    padding-left: 0; /* Eliminar el espacio de sangría izquierda */
+}
+
+footer{
+    text-align: center;
+}
+
+.descripcion{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.habilidades {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.habilidades h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 1.8em; /* Tamaño de fuente del título */
+}
+
+/* Contenedor que contiene las tarjetas */
+.habilidades-lista {
+    display: flex; /* Habilitar Flexbox para las tarjetas */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    overflow-x: auto; /* Permitir desplazamiento horizontal si es necesario */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 10px; /* Espaciado interno alrededor de las tarjetas */
+}
+
+.habilidad {
+    background-color: #ffffff; /* Fondo blanco para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px; /* Espaciado interno */
+    width: 200px; /* Ancho fijo para cada tarjeta */
+    text-align: center; /* Centrar el texto dentro de la tarjeta */
+}
